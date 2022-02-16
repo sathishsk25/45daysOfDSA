@@ -35,7 +35,6 @@ int BinarySearchR(int a[], int key, int l, int h){
     return -1;
 }
 
-
 int main(){
     struct Array arr={{1,2,3,4,5,6,7,8,9,0},10,10};
     cout << "Element found at " << BinarySearch(arr, 5) << endl;
