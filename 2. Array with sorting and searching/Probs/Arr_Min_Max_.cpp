@@ -7,7 +7,7 @@ pair<long long, long long> getMinMax(long long a[], int n) ;
 
 int main() {
     int t;
-    cin >> t;
+    cin >> t;       //test case
     while (t--) {
         int n;
         cin >> n;
