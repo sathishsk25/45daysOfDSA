@@ -46,6 +46,7 @@ void mergeSortR(int arr[],int l, int h){
 int main(){
     int arr[] = {4,6,2,8,1,3,9,7,5};
     int len = sizeof(arr)/sizeof(arr[1]);
+    
     mergeSortI(arr,len);
     mergeSortR(arr,0,len);
     for(int i=0; i<len; i++)
