@@ -10,7 +10,6 @@ struct Node{
 void push(char x){
     struct Node *t;
     t= new Node;
-
     if(t==NULL)
     cout << "Stack is full\n";
     else{
