@@ -55,7 +55,6 @@ int main()
     enqueue(&q, 10);
     enqueue(&q, 20);
     enqueue(&q, 30);
-
     display(q);
     cout << "Deleted ele : " << dequeue(&q) << endl;
     display(q);
